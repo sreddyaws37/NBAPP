@@ -1,7 +1,10 @@
-name: Jai Guru
+name: Action-1
 on: push
 jobs:
-   job1:
-     runs-on: ubuntu-latest
-     steps:
-     - run: echo "Om guru"
+  runs-on: ubuntu-latest
+  steps:
+  - name: step-1
+    run: hostnamectl
+  - name: step-2
+    run: pwd
+	
