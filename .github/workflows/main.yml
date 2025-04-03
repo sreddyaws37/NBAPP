@@ -2,6 +2,6 @@ name: Jai Guru
 on: push
 jobs:
    job1:
-     runs_on: ubuntu-latest
+     runs-on: ubuntu-latest
      steps:
      - run: echo "Om guru"
