@@ -7,4 +7,3 @@ jobs:
     run: hostnamectl
   - name: step-2
     run: pwd
-	
